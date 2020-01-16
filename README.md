@@ -17,12 +17,11 @@ https://nodejs.org/en/
 ## Installation
 This is a step by step list for how another developer could get this project up and running.
 
-1. Create a database named prime_feedback
+1. Create a database weekend-to-do-app
 2. The queries in the tables.sql file are set up to create all the necessary tables and populate the needed data to allow the application to run correctly. The project is built on Postgres, so you will need to make sure to have that installed. I recommend using Postico to run those queries as that was used to create the queries.
 3. Open up your editor of choice and run an npm install
-4. Run npm run server in your terminal
-5. Run npm run client in your terminal
-6. The npm run client command will open up a new browser tab for you!
+4. Run npm start in your terminal
+5. The npm start command will open up a new browser tab for you!
 
 ## Usage
 You can use this applicaiton to make a list of things to do and mark them off or remove them when you are done. 
