@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./vendors/jquery-3.4.1.min.js"></script>
+    <script src="./scripts/client.js"></script>
+    <link rel="stylesheet" href="./styles/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>The TO DO App</title>
+</head>
+<body class="bg-dark">
+        <h2 class="text-center text-dark mt-auto py-3">To-Do List</h2>
+    <section class="container px-3 py-3 mx-auto text-center">
+    <div class="inputDiv container col-lg-4">
+        <input id="taskIn" type="text" placeholder="Tasks to accomplish">
+        <button id="addTaskBtn" class="text-dark">Add New Task</button>
+    </div>
+    </section>
+    <section class="container col-lg-4 text-secondary">
+        <div class="outputDiv card mb-4 shadow-sm">
+            <table class="taskTable container ">
+                <th id="completedBtnThead" class="card-header">  
+                </th>
+                <th id="taskThead" class="card-header text-dark">
+                    Tasks
+                </th>
+                <th id="progressThead" class="card-header text-dark">
+                    Progress
+                </th>
+                <th id="deleteThead" class="card-header">
+                </th>
+                <tbody id="taskList">
+                    <!-- Data goes here -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
