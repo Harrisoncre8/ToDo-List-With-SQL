@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Harrisoncre8/weekend-sql-to-do-list#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "pg": "^7.14.0"
   }
 }
